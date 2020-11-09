@@ -1,10 +1,8 @@
-﻿// ProtobufTest.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <string>
 #include "addressbook.pb.h"
+
 using namespace std;
 
 void PromptForAddress(tutorial::Person* person) {
@@ -89,8 +87,8 @@ int main(int argc, char* argv[])
 
     // Optional:  Delete all global objects allocated by libprotobuf.
     google::protobuf::ShutdownProtobufLibrary();
+    std::cout << "Hello World!\n";
 
-    system("pause");
-    return 0;
-
+	system("pause");
+	return 0;
 }

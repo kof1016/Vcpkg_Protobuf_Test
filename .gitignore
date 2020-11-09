@@ -7,3 +7,5 @@ ProtobufTest/Protobuf_Read/Debug
 ProtobufTest/Protobuf_Write/Debug
 ProtobufTest/Debug
 ProtobufTest/.vs/ProtobufTest/v16
+ProtobufTest/Protobuf_Write/Release
+ProtobufTest/Release
