@@ -86,9 +86,9 @@ int main(int argc, char* argv[])
     }
 
     // Optional:  Delete all global objects allocated by libprotobuf.
-    google::protobuf::ShutdownProtobufLibrary();
+    //google::protobuf::ShutdownProtobufLibrary();
     std::cout << "Hello World!\n";
 
-	system("pause");
-	return 0;
+//	system("pause");
+	//return 0;
 }
